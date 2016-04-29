@@ -1,10 +1,6 @@
 /**
  * HTML Elements
  */
-html {
-  background: #20252e;
-}
-
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -226,7 +222,7 @@ th:last-child {
   color: #fff;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 35em) {
   .l-header .site-name {
     text-align: left;
   }
@@ -245,7 +241,7 @@ th:last-child {
   background: #586172;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 35em) {
   .l-header .block-system-user-menu .leaf {
     font-size: 0.875em;
   }
@@ -255,21 +251,10 @@ th:last-child {
  * Footer styles
  */
 .l-footer {
-  background: #20252e;
+  border-top: 0.25rem solid #c6cad2;
   line-height: 3em;
-  color: #fff;
+  padding: 0.5em 0 1em;
   margin: 5em 0 0;
-}
-
-.l-footer-inner-wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.l-footer a {
-  color: #fff;
 }
 
 /**
@@ -767,7 +752,7 @@ abbr.tabledrag-changed {
   margin: 0;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 35em) {
   .messages {
     padding-left: 4.375em;
   }
@@ -799,7 +784,7 @@ abbr.tabledrag-changed {
 }
 
 div.status:before {
-  background-image: url(../../../core/misc/message-24-ok.png);
+  background-image: url(/core/misc/message-24-ok.png);
   background-color: #CFDE56;
 }
 
@@ -809,7 +794,7 @@ div.status:before {
 }
 
 div.warning:before {
-  background-image: url(../../../core/misc/message-24-warning.png);
+  background-image: url(/core/misc/message-24-warning.png);
   background-color: #FCE400;
 }
 
@@ -819,38 +804,38 @@ div.warning:before {
 }
 
 div.error:before {
-  background-image: url(../../../core/misc/message-24-error.png);
+  background-image: url(/core/misc/message-24-error.png);
   background-color: #EE3D23;
 }
 
 /* Desktop size icons */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 35em) {
   div.status:before {
-    background-image: url(../../../core/misc/message-32-ok.png);
+    background-image: url(/core/misc/message-32-ok.png);
   }
 
   div.warning:before {
-    background-image: url(../../../core/misc/message-32-warning.png);
+    background-image: url(/core/misc/message-32-warning.png);
   }
 
   div.error:before {
-    background-image: url(../../../core/misc/message-32-error.png);
+    background-image: url(/core/misc/message-32-error.png);
   }
 }
 /* SVG overrides */
 div.status:before {
-  background-image: -webkit-linear-gradient(transparent, transparent), url(../../../core/misc/message-ok.svg);
-  background-image: linear-gradient(transparent, transparent), url(../../../core/misc/message-ok.svg);
+  background-image: -webkit-linear-gradient(transparent, transparent), url(/core/misc/message-ok.svg);
+  background-image: linear-gradient(transparent, transparent), url(/core/misc/message-ok.svg);
 }
 
 div.warning:before {
-  background-image: -webkit-linear-gradient(transparent, transparent), url(../../../core/misc/message-warning.svg);
-  background-image: linear-gradient(transparent, transparent), url(../../../core/misc/message-warning.svg);
+  background-image: -webkit-linear-gradient(transparent, transparent), url(/core/misc/message-warning.svg);
+  background-image: linear-gradient(transparent, transparent), url(/core/misc/message-warning.svg);
 }
 
 div.error:before {
-  background-image: -webkit-linear-gradient(transparent, transparent), url(../../../core/misc/message-error.svg);
-  background-image: linear-gradient(transparent, transparent), url(../../../core/misc/message-error.svg);
+  background-image: -webkit-linear-gradient(transparent, transparent), url(/core/misc/message-error.svg);
+  background-image: linear-gradient(transparent, transparent), url(/core/misc/message-error.svg);
 }
 
 /**
@@ -1349,7 +1334,7 @@ fieldset .fieldset-wrapper {
   display: none;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 30em) {
   .fieldset-legend span.summary {
     display: block;
   }
@@ -1385,7 +1370,7 @@ ul.pager {
   display: none;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 35em) {
   .pager-item,
   .pager-ellipsis {
     display: block;
